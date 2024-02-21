@@ -35,7 +35,6 @@ public class NumberController {
 
     private void saveIfNotExist(String number) {
         if (!numberRepository.existsByNumber(number)) {
-//            numberRepository.save(new NumberEntity(number));
             NumberEntity numberEntity = new NumberEntity();
             numberEntity.setNumber(number);
             numberRepository.save(numberEntity);

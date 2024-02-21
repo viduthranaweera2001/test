@@ -6,7 +6,6 @@ import jakarta.persistence.Id;
 import lombok.Data;
 
 import java.util.List;
-
 @Data
 public class NumberRequest {
     @Id

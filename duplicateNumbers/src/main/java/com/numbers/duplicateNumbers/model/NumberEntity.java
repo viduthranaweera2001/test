@@ -5,10 +5,6 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
-import org.hibernate.type.descriptor.jdbc.VarcharJdbcType;
-
-import java.math.BigInteger;
-
 @Entity
 @Data
 public class NumberEntity {
